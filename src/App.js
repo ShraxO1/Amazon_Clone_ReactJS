@@ -9,9 +9,15 @@ import {useStateValue} from "./StateProvider";
 import {useEffect} from "react";
 import {auth} from "./firebase";
 import Payment from "./Payment";
+import { loadStripe } from "@stripe/stripe-js";
+import { Elements } from "@stripe/react-stripe-js";
 
 function App() {
     const [{}, dispatch] = useStateValue();
+
+    const promise = loadStripe(
+        "pk_test_51ItB6LSDsxWfLBuP13m77bKtmazbr7HYBUcW5Zb4kWYLu1Vxq3tTvulIQnD3dVbVDgyBImSNzc8lFLaGgJtPGMBb00ZQnZHbpm"
+        );
 
     useEffect(() => {
         // will only run once when the app component loads...
@@ -45,7 +51,9 @@ function App() {
                 </Route>
                 <Route path="/payment">
                     <Header/>
-                    <Payment/>
+                    <Elements stripe={promise}>
+                        <Payment/>
+                    </Elements>
                 </Route>
                 <Route path="/checkout">
                     <Header/>
