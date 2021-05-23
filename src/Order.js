@@ -36,4 +36,4 @@ function Order({ order }) {
     )
 }
 
-export default Order
+export default Order;
