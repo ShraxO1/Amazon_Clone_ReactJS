@@ -5,11 +5,11 @@ import { useStateValue } from './StateProvider'
 
 const CheckoutProduct = forwardRef(({ id, image, title, price, rating, hideButton }, ref) => {
 
-    const [{ basket }, disptch] = useStateValue();
+    const [{ basket }, dispatch] = useStateValue();
 
     const removeFromBasket = () => {
 
-        disptch({
+        dispatch({
             type: 'REMOVE_FROM_BASKET',
             id: id,
         })
