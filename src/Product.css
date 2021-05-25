@@ -35,6 +35,10 @@
     margin-top: 5px;
 }
 
+.product > img:hover {
+    transform: scale(1.05);
+}
+
 .product__info {
     height: 100px;
     margin-bottom: 15px;

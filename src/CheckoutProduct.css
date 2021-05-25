@@ -26,6 +26,14 @@
     display: flex;
 }
 
+.checkoutProduct__info > button:hover {
+    transform: scale(1.04);
+}
+
+.checkoutProduct__image:hover {
+    transform: scale(1.05);
+}
+
 .checkoutProduct__title {
     font-size: 17px;
     font-weight: 800;

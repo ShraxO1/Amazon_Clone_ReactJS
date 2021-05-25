@@ -1,8 +1,10 @@
 # Amazon Clone using React JS and Firebase
 
-### [Live Site]()
+### [Live Site](https://clone-e45b3.firebaseapp.com/)
 
 ![Title-image]()
+![Title-image]()
+
 
 ## Introduction
 This is a code repository for the Amazon Clone.
