@@ -2,7 +2,7 @@
 
 ### [Live Site](https://clone-e45b3.firebaseapp.com/)
 
-![Title-image]()
+![Title-image](./images/ss1.png)
 ![Title-image]()
 
 
