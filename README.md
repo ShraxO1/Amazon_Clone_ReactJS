@@ -2,10 +2,16 @@
 
 ### [Live Site](https://clone-e45b3.firebaseapp.com/)
 
-### Login
+### Homepage page
 ![Title-image](./images/ss1.png)
+
+### Login page
 ![Title-image](./images/ss2.png)
+
+### Checkout page
 ![Title-image](./images/ss3.png)
+
+### Payment page
 ![Title-image](./images/ss4.png)
 
 ## Introduction
