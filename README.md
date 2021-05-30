@@ -3,8 +3,9 @@
 ### [Live Site](https://clone-e45b3.firebaseapp.com/)
 
 ![Title-image](./images/ss1.png)
-![Title-image]()
-
+![Title-image](./images/ss2.png)
+![Title-image](./images/ss3.png)
+![Title-image](./images/ss4.png)
 
 ## Introduction
 This is a code repository for the Amazon Clone.
